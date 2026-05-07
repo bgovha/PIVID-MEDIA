@@ -21,7 +21,7 @@ img{
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
     padding: 20px;
-    height: auto;
+    height: 50%;
     border-radius: 50%;
     transition: transform 0.3s ease;
     cursor: pointer;
@@ -30,4 +30,10 @@ img{
     transform: scale(1.1);
     z-index: 10;
     border-radius: 40px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: blueviolet;
 }
